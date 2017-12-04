@@ -2,6 +2,7 @@ import math
 import random
 from datetime import datetime
 
+
 def RandomNeighbour(u, G):
     random.seed(datetime.now())
     lst = G.getAdjList(u)

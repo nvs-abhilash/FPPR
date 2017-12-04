@@ -1,11 +1,11 @@
 import math
 from genseg import GenSeg
 
+
 def Doubling(G, lam, theta):
     S = GenSeg(G, lam, theta)
     V = G.getVertices()
     eta = math.ceil(lam / theta)
-
 
     W = {}
     E = {}

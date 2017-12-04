@@ -3,6 +3,7 @@ Given u, v -> (node, adjacency list)
 """
 import sys
 
+
 def main():
     graph_dict = {}
 
@@ -27,6 +28,7 @@ def main():
                 sys.stdout.write(',')
 
         sys.stdout.write("\n")
+
 
 if __name__ == '__main__':
     main()
